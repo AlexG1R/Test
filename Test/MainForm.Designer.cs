@@ -29,12 +29,12 @@ namespace Test
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("land_records");
-            System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("build_records");
-            System.Windows.Forms.TreeNode treeNode9 = new System.Windows.Forms.TreeNode("construction_records");
-            System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("spatial_data");
-            System.Windows.Forms.TreeNode treeNode11 = new System.Windows.Forms.TreeNode("municipal_boundaries");
-            System.Windows.Forms.TreeNode treeNode12 = new System.Windows.Forms.TreeNode("zones_and_territories_boundaries");
+            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("land_records");
+            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("build_records");
+            System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("construction_records");
+            System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("spatial_data");
+            System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("municipal_boundaries");
+            System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("zones_and_territories_boundaries");
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.label1 = new System.Windows.Forms.Label();
             this.openRichTextBox = new System.Windows.Forms.RichTextBox();
@@ -89,6 +89,7 @@ namespace Test
             // 
             // openRichTextBox
             // 
+            this.openRichTextBox.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.openRichTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.openRichTextBox.Location = new System.Drawing.Point(3, 27);
             this.openRichTextBox.Name = "openRichTextBox";
@@ -111,6 +112,7 @@ namespace Test
             // 
             // objectRichTextBox
             // 
+            this.objectRichTextBox.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.objectRichTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.objectRichTextBox.Location = new System.Drawing.Point(597, 27);
             this.objectRichTextBox.Name = "objectRichTextBox";
@@ -136,26 +138,26 @@ namespace Test
             this.objectstTeeView.Dock = System.Windows.Forms.DockStyle.Fill;
             this.objectstTeeView.Location = new System.Drawing.Point(399, 27);
             this.objectstTeeView.Name = "objectstTeeView";
-            treeNode7.Checked = true;
-            treeNode7.Name = "land_records";
-            treeNode7.Text = "land_records";
-            treeNode8.Name = "build_records";
-            treeNode8.Text = "build_records";
-            treeNode9.Name = "construction_records";
-            treeNode9.Text = "construction_records";
-            treeNode10.Name = "spatial_data";
-            treeNode10.Text = "spatial_data";
-            treeNode11.Name = "municipal_boundaries";
-            treeNode11.Text = "municipal_boundaries";
-            treeNode12.Name = "zones_and_territories_boundaries";
-            treeNode12.Text = "zones_and_territories_boundaries";
+            treeNode1.Checked = true;
+            treeNode1.Name = "land_records";
+            treeNode1.Text = "land_records";
+            treeNode2.Name = "build_records";
+            treeNode2.Text = "build_records";
+            treeNode3.Name = "construction_records";
+            treeNode3.Text = "construction_records";
+            treeNode4.Name = "spatial_data";
+            treeNode4.Text = "spatial_data";
+            treeNode5.Name = "municipal_boundaries";
+            treeNode5.Text = "municipal_boundaries";
+            treeNode6.Name = "zones_and_territories_boundaries";
+            treeNode6.Text = "zones_and_territories_boundaries";
             this.objectstTeeView.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode7,
-            treeNode8,
-            treeNode9,
-            treeNode10,
-            treeNode11,
-            treeNode12});
+            treeNode1,
+            treeNode2,
+            treeNode3,
+            treeNode4,
+            treeNode5,
+            treeNode6});
             this.objectstTeeView.Size = new System.Drawing.Size(192, 545);
             this.objectstTeeView.TabIndex = 0;
             this.objectstTeeView.NodeMouseDoubleClick += new System.Windows.Forms.TreeNodeMouseClickEventHandler(this.objectstTeeView_NodeMouseDoubleClick_1);

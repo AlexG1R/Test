@@ -124,7 +124,7 @@ namespace Test
             saveFileDialog.ShowDialog();
             XmlDocument xml = new XmlDocument();           
             XmlElement root = xml.CreateElement("objects");
-            if (SaveIdObjects!=null)//проверяет, есть ли объекты для сохранения
+            if (SaveIdObjects!=null && saveFileDialog.FileName !="")//проверяет, есть ли объекты для сохранения
             {
                 foreach (var saveobjct in SaveIdObjects)
                 {
